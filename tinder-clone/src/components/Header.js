@@ -6,7 +6,8 @@ import ForumIcon from '@material-ui/icons/Forum';
 function Header() {
     return (
         <div className="header">
-            <IconButton>
+           
+        <IconButton>
             <PersonIcon fontSize="large" className="person_icon" />
             </IconButton>
             <img
@@ -16,6 +17,7 @@ function Header() {
            <IconButton>
            <ForumIcon fontSize="large" className="header_icon" />
            </IconButton>
+        
         </div>
     )
 }
